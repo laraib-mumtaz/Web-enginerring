@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+header {
+    text-align: center;
+}
+
+nav a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: blue;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 15px 0;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+form input[type="text"],
+form input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-top: 1px solid #ccc;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+@media screen and (max-width: 767px), screen and (max-height: 500px) and (orientation: landscape) {
+    body {
+        margin: 8px;
+        font-size: 14px;
+        line-height: 1.35;
+    }
+
+    header {
+        font-size: 14px;
+        padding: 5px 0;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 16px;
+        padding-bottom: 3px;
+    }
+
+    section {
+        margin-bottom: 20px;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 4px;
+    }
+
+    form input[type="text"],
+    form input[type="email"],
+    textarea {
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    footer {
+        font-size: 13px;
+        padding-top: 8px;
+        margin-top: 20px;
+    }
+
+    img {
+        margin: 5px 0;
+    }
+}
